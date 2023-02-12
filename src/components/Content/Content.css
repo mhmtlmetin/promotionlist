@@ -1,0 +1,68 @@
+.slick-slide > div {
+    margin: 10px 20px;
+    border: 0px
+}
+.bg-img {
+    position: absolute;
+    margin: auto;
+    z-index:-1;
+}
+.bg-rect {
+    z-index: 1;
+    width: 401px;
+    height: 367px;
+}
+.product {
+    display: flex;
+    margin-left: 50px;
+    width: 250px;
+    height: 350px;
+    margin-top: 50px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    border: 0px;
+}
+
+.product-img {
+    border-radius: 20px 20px 20px 90px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.slick-dots li.slick-active button:before {
+    color: red !important;
+    width: 24px;
+    height: 12px;
+    background-color: red;
+    border-radius: 30px;
+}
+
+.promo-icon {
+    position: absolute;
+    width: 80px;
+    ;
+    height: 80px;
+    top: 210px;
+    margin-left: 30px;
+    border: 4px solid white;
+    background-color: white;
+    border-radius: 50%;
+
+}
+
+.promo-txt {
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+
+    text-align: center;
+    align-items: center;
+}
+
+.promo-detail {
+    margin-left: 150px;
+    color: #F40000;
+    text-decoration: none;
+}

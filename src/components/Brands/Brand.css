@@ -1,0 +1,30 @@
+.brand{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+margin-top: 20px;
+  
+}
+.brand-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 123px;
+    height: 36px;
+    background: #FFFFFF;
+    border: 1.5px solid #ECEEEF;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    margin-right: 4px;
+   padding: auto;
+}
+
+.brand-icon {
+    width: 17px;
+    height: 13px;
+    margin-right: 5px;
+   margin-left:-9px;
+}
